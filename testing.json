@@ -1,0 +1,28 @@
+{
+    "CTI": "Website:Software:Bohr",
+    "PluginName": "PrimeImmediateCancellationEvalPlugin",
+    "PluginEvalTimeout": 5000,
+    "TagsToAdd": "Subscription/amazon:1.0/TagsToAdd:1.0",
+    "TagsToRemove": "Subscription/amazon:1.0/TagsToRemove:1.0",
+    "TokenMetaData": "Prime/amazon:1.0/MembershipActionToken:1.0",
+    "CancelAction": "EvaluateCancelActionEligibility",
+    "FailClosed": false,
+    "isCloudAuthEnabled": false,
+    "stage": "Execute",
+    "EnabledRealms": "US:EU:CN:IN",
+    "isFiredForget": true,
+    "ShouldRunPlugin": false,
+    "ClientClass": "MembershipEvaluationPluginServiceClient",
+    "WeblabName": "",
+    "MergeEntityWhitelist": {
+        "RefundRequest": "RefundRequest_1.ENTITY_METADATA",
+        "AccountingMetadata": "AccountingMetadata_1.ENTITY_METADATA",
+        "Tags": "Tags_1.ENTITY_METADATA",
+        "Metadata":"Metadata_1.ENTITY_METADATA",
+        "CancelReason":"CancelReason_1.ENTITY_METADATA",
+        "LineItemValidationError":"LineItemValidationError_1.ENTITY_METADATA",
+        "MetaDataTagsToAdd":"TAGS_TO_ADD_METADATA",
+        "MetaDataTagsToRemove":"TAGS_TO_REMOVE_METADATA",
+        "MembershipTokenMetaData":"MEMBERSHIP_TOKEN_METADATA"
+    }
+}
