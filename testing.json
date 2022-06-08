@@ -1,4 +1,5 @@
 {
+    "__Comment__": "This is a comment",
     "CTI": "Website:Software:Bohr",
     "PluginName": "PrimeImmediateCancellationEvalPlugin",
     "PluginEvalTimeout": 5000,
